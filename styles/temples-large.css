@@ -1,0 +1,46 @@
+@media only screen and (min-width: 40rem) {
+    header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    main h1 {
+        grid-column: 1 / -1;
+    }
+
+    #menu{ 
+        display: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    figure{
+        margin: 0;
+
+    }
+
+    figure img{
+        width: 100%;
+        height: auto;
+    }
+}
