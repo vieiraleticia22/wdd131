@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cape Verde</title>
+    <meta name="description" content="Explore Cape Verde and discover the features that make the country unique.">
+    <meta name="author" content="Leticia Santana">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Cabo Verde</h1>
+    </header>
+    
+    <main>
+        <picture>
+            <source media="(min-width:768px)" srcset="">
+            <img src="images/cape-verde-hero.jpg" alt="Cabo Verde Photo">
+        </picture>
+
+        <section  class="data">
+            <h2>Data</h2>
+            <p><strong>Area:</strong> 4.033 km²</p>
+            <p><strong>Population:</strong> 529.877</p>
+            <p><strong>Capital:</strong> Praia</p>
+            <p><strong>Languages:</strong> Cape Verdean Creole and Portuguese</p>
+            <p><strong>Currency:</strong> Escudo cabo-verdiano</p>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <img src="images/thermometer-half.svg" alt="Weather Icon" class="weather-icon" width="50">
+
+            <p><strong>Temperature:</strong> 29°C</p>
+            <p><strong>Wind:</strong>14km/h</p>
+            <p><strong>Wind Chill:</strong><span id="windchill"></span> 14°C</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span>2026🌸Leticia Santana🌸Brazil
+        </p>
+        
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

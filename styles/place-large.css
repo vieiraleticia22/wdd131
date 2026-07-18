@@ -1,0 +1,33 @@
+@media (min-width:768px){
+    main{
+        position: relative;
+    }
+
+    picture img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .data{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        width: 250px;
+    }
+
+    .weather{
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        width: 220px;
+    }
+
+    .weather img{
+        display: none;
+    }
+
+    .weather h2::after{
+        content: 🌡;
+    }
+}
