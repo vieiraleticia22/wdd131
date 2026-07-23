@@ -1,8 +1,23 @@
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
+@media (min-width: 768px){
+    nav{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
+
+nav a:hover{
+    color: white;
+    background-color: purple;
+    
 }
 
 .gallery figure {
